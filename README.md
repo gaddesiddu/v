@@ -79,5 +79,8 @@ To run tests, run the following command
 
 **Python, Django, Django Rest Framework, Sqlite**
 
+## Screenshots
+![WhatsApp Image 2023-07-22 at 08 35 45](https://github.com/gaddesiddu/v/assets/98646175/cc843464-006b-4a1c-9e59-aca89883f864)
+
 
 
