@@ -8,9 +8,9 @@ Develop a vendor management system in Django with REST APIs using Django Rest Fr
 
 ## Project Setup
 
-```bash
-python -m django startproject project_name
-python manage.py startapp app_name
+
+- python -m django startproject project_name
+- python manage.py startapp app_name
 
 ## Documentation
 
@@ -26,13 +26,19 @@ python manage.py startapp app_name
 After creating the models in Vendor (Vendor), Purchase_orders (PurchaseOrder), and Performance (VendorPerformance), make sure to register these models in their corresponding admin.py files.
 
 Then run migrations in terminal
-```bash
-Python manage.py makemigrations
-python manage.py migrate
+
+- Python manage.py makemigrations
+- python manage.py migrate
 
 ## Run Server
 
 Run server -  python manage.py runserver
+## JWT Authentication
+
+- Implemented JWT Authentication 
+To access the token perform http://127.0.0.1:8000/token/. 
+- Provide {"username": "siddu11", "password" : "1234"}
+- Once you obtain the access token, you can paste it in the Bearer Authentication header and then proceed to implement any API endpoint related to JWT authentication.
 ## API Endpoints
 
 VENDOR API
@@ -54,3 +60,24 @@ PURCHASE_ORDER API
 VENDOR PERFORMANCE
 
 - GET     : api/vendors/performance/
+## Project Setup
+
+
+- python -m django startproject project_name
+- python manage.py startapp app_name
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  python manage.py test
+```
+
+
+## Tech Stack
+
+**Python, Django, Django Rest Framework, Sqlite**
+
+
+
